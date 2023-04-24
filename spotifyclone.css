@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100&family=Open+Sans:ital,wght@1,300&display=swap'); 
+body{
+    background-color: antiquewhite;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color:white;
+    align-items: center;
+    
+}
+nav li{
+    padding:0 12px;
+}
+
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    height:44px;
+    padding:0 6px;
+}
+ 
+.container{
+    min-height: 74vh;
+    color:white;
+    display:flex;
+    margin:24px auto;
+    width: 70%;
+    padding:18px;
+    border-radius: 8px;
+    background-image: url('https://www.wallpaperflare.com/static/147/784/890/drawing-monochrome-face-paint-splatter-wallpaper.jpg');
+   background-size: cover;
+
+}
+.container h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.songItemcontainer{
+    margin:24px;
+}
+
+.songItems{
+    height:48px;
+    display: flex;
+    background-color: white;
+    color:black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:24px;
+    border: 2px solid black;
+    margin:12px 0;
+}
+.songItems img{
+    height: 43px;
+    padding: 7px 10px;
+    border-radius: 29px;
+}
+.timestamp{
+    padding: 0 10px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.bottom{
+    height:100px;
+    position:sticky;
+    bottom:0;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    padding:14px;
+}
+
+#progresbar{
+    min-width:80vw;
+    cursor: pointer;
+    
+}
+.bottom img{
+    height:14px;
+    width:76px;
+    margin-left: 0px;
+}
+.playinggif{
+    position:absolute;
+    left:3vw;
+}
+.playinggif img {
+    opacity:0;
+    transition:  0.2s ease-in;
+}
+.bottom i{
+    cursor: pointer;
+}
+
